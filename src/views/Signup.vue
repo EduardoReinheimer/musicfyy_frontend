@@ -17,7 +17,7 @@
             type="password"
             name="input-10-1"
             solo
-            label="Password"
+            label="Senha"
             prepend-inner-icon="mdi-lock"
          ></v-text-field>
 
@@ -26,7 +26,7 @@
             type="password"
             name="input-10-1"
             solo
-            label="Repeat Password"
+            label="Repita a senha"
             prepend-inner-icon="mdi-lock-reset"
          ></v-text-field>
 
@@ -35,11 +35,11 @@
       class="ma-2 white--text"
       @click.prevent="register"
     >
-      signup
+      Criar Conta
       <v-icon right dark>mdi-account</v-icon>
     </v-btn>
-  <p class="ma-3 ma-md-1">Have an account ?</p> 
- <v-btn> <router-link to="/" tag='span'>Login</router-link> </v-btn>
+  <p class="ma-3 ma-md-1">Tem uma conta ?</p> 
+ <v-btn> <router-link to="/" tag='span'>Entrar</router-link> </v-btn>
     </v-col>
       </v-row>
     </v-container>

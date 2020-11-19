@@ -24,7 +24,7 @@
               </v-btn>
             </template>
             <v-card>
-              <v-card-title>Login</v-card-title>
+              <v-card-title>Entrar</v-card-title>
               <v-divider></v-divider>
               <v-card-text class="mt-2">
                 <v-text-field
@@ -42,7 +42,7 @@
                   @click:append="show1 = !show1"
                   solo
                   :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
-                  label="Password"
+                  label="Senha"
                   prepend-inner-icon="mdi-account-key"
                 ></v-text-field>
               </v-card-text>
